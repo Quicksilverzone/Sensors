@@ -11,7 +11,7 @@ I2C_HandleTypeDef hi2c1;
 
 /********************************************************************************************
 ;	Function:		SPS30_startMeasurements
-;	Description:	Start SPS30 Measurements
+;	Description:		Start SPS30 Measurements
 ;	Inputs: 	 	Nothing
 ;	Returns:	 	Nothing
 **********************************************************************************************/
@@ -29,7 +29,7 @@ void SPS30_startMeasurements(void){
 
 /********************************************************************************************
 ;	Function:		SPS30_stopMeasurements
-;	Description:	Stop SPS30 Measurements
+;	Description:		Stop SPS30 Measurements
 ;	Inputs: 	 	Nothing
 ;	Returns:	 	Nothing
 **********************************************************************************************/
@@ -44,7 +44,7 @@ void SPS30_stopMeasurements(void){
 
 /********************************************************************************************
 ;	Function:		SPS30_sleep
-;	Description:	Set SPS30 in Sleep Mode
+;	Description:		Set SPS30 in Sleep Mode
 ;	Inputs: 	 	Nothing
 ;	Returns:	 	Nothing
 **********************************************************************************************/
@@ -59,7 +59,7 @@ void SPS30_sleep(void){
 
 /********************************************************************************************
 ;	Function:		SPS30_wakeUp
-;	Description:	Awake SPS30 from Sleep Mode
+;	Description:		Awake SPS30 from Sleep Mode
 ;	Inputs: 	 	Nothing
 ;	Returns:	 	Nothing
 **********************************************************************************************/
@@ -75,7 +75,7 @@ void SPS30_wakeUp(void){
 
 /********************************************************************************************
 ;	Function:		SPS30_writeByte
-;	Description:	Send SPS30 Command
+;	Description:		Send SPS30 Command
 ;	Inputs: 	 	Register, Value
 ;	Returns:	 	Nothing
 **********************************************************************************************/
@@ -92,7 +92,7 @@ void SPS30_writeByte(uint16_t reg, uint16_t val){
 
 /********************************************************************************************
 ;	Function:		SPS30_readMeasurements
-;	Description:	Read Measurement Parameters from SPS30
+;	Description:		Read Measurement Parameters from SPS30
 ;	Inputs: 	 	Nothing
 ;	Returns:	 	Readings ( as struct)
 **********************************************************************************************/
