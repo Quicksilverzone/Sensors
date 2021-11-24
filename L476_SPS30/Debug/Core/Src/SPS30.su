@@ -1,0 +1,6 @@
+SPS30.c:18:6:SPS30_startMeasurements	24	static
+SPS30.c:36:6:SPS30_stopMeasurements	24	static
+SPS30.c:51:6:SPS30_sleep	24	static
+SPS30.c:66:6:SPS30_wakeUp	24	static
+SPS30.c:82:6:SPS30_writeByte	32	static
+SPS30.c:99:21:SPS30_readMeasurements	112	static
